@@ -15,7 +15,7 @@ It detects a possible Kerberoasting attack and alerts the IT administrator team.
 
 ## How to setup
 1. Download kerberoast-checker.ps1 
-2. Create new scheduled Task and set the Triggers and Actions settings below.
+2. Create a new scheduled "Task" and set the "Triggers" and "Actions" settings below.
     ![tasksettings1](https://user-images.githubusercontent.com/32608046/214419128-7ebc1ecc-f05d-4870-86ec-5ec0f4d97ade.png)
     ![setactions](https://user-images.githubusercontent.com/32608046/214432199-ae491b34-a09f-456f-9677-3548e0676f7c.png)
 4. Create honey-user and SPN account.
