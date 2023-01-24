@@ -20,7 +20,7 @@ It detects possible Kerberoasting Attack and alert IT Administrators/IT Security
     ![setactions](https://user-images.githubusercontent.com/32608046/214432199-ae491b34-a09f-456f-9677-3548e0676f7c.png)
 4. Create honey-user and SPN account.
     ![setspn](https://user-images.githubusercontent.com/32608046/214421728-033adb29-1a40-45cf-9118-1648d28b37e6.png)
-4. Important: Simulate Kerberoast attack to confirm your KerberoastDetectNAlert. (see Screenshots)
+4. Important: Simulate Kerberoast attack to confirm your KerberoastDetectNAlert works. (see Screenshots)
 
 ## Addional Features:.
 - You can enable option to send email notification to IT/Security admins email group.
