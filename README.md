@@ -1,5 +1,5 @@
 # KerberoastDetectNAlert
-It detects possible Kerberoasting Attack and alert IT Administrators/IT Security team. This Powershell script get "Event ID 4769" and check "Ticket Enryption Type" if match to "0x17" value. If the condition is $True, it will save simplified report and alert administrators. 
+It detects possible Kerberoasting Attack and alert IT Administrators/IT Security team. This Powershell script get "Event ID 4769" and check "Ticket Encryption Type" if match to "0x17" value. If the condition is $True, it will save simplified report and alert administrators. 
 
 
 ## Screenshots
