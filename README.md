@@ -14,6 +14,15 @@ It detects possible Kerberoasting Attack and alert IT Administrators/IT Security
 
 
 ## How to setup
+1. Download kerberoast-checker.ps1 
+2. Create new scheduled Task and set the Triggers and Actions settings below.
+    ![tasksettings1](https://user-images.githubusercontent.com/32608046/214419128-7ebc1ecc-f05d-4870-86ec-5ec0f4d97ade.png)
+    
+4. Create honey-user and SPN account.
+    ![setspn](https://user-images.githubusercontent.com/32608046/214421728-033adb29-1a40-45cf-9118-1648d28b37e6.png)
+4. Important: Simulate Kerberoast attack to confirm your KerberoastDetectNAlert. (see Screenshots)
 
-
-
+## Addional Features:.
+- You can enable option to send email notification to IT/Security admins email group.
+  > Uncomment the "#Send-MailMessage" line and set your SMTP, From and To email address(es), Subject, Body, and Attachment file.
+  ![email-option2](https://user-images.githubusercontent.com/32608046/214428377-f4cbf4d2-7471-40bb-947d-1cf0e9e46258.png)
